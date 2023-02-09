@@ -1,0 +1,45 @@
+.Divbutton {
+    text-align: center;
+    position: relative;
+    width: 120px;
+    top: -16px;
+    left: 10px;
+}
+
+.btnRow {
+    border-radius: 50%;
+    border-style: solid;
+    transition: .5s;
+}
+
+.btnRow:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.btnDiv {
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 53px;
+}
+
+.btnColu {
+    border-radius: 50%;
+    border-style: solid;
+    transition: .5s;
+}
+
+.btnColu:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+::placeholder {
+    font-size: 14px;
+}
+
+output {
+    width: 100%;
+}
